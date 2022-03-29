@@ -1,0 +1,12 @@
+.logoBlog {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.postContent {
+    font-size: 17px;
+    font-family: "American Typewriter";
+    color: rgba(255, 229, 169, 0.91);
+
+}

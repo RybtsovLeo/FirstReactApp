@@ -1,0 +1,47 @@
+.blog {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogItem{
+    margin-top: 20px;
+}
+
+.post {
+    margin-top: 20px;
+}
+
+.blogTitle {
+    font-family: "American Typewriter";
+    font-size: 40px;
+    color: rgba(255, 229, 169, 0.91);
+
+}
+
+.newPost {
+    border: none;
+    background-color:rgba(255, 229, 169, 0.91);
+    width: 40%;
+    border-radius: 15px;
+}
+
+.newPost::placeholder {
+    font-family: "American Typewriter";
+    color: rgba(255, 127, 80, 0.8);
+
+}
+
+.blogButt {
+    margin-left: 1%;
+    width: 10%;
+    border-radius: 10px;
+    border: none;
+    background-color: coral;
+    transition: 300ms;
+}
+
+.blogButt:hover {
+    background-color: #ff561a;
+    transform: scale(1.1);
+}

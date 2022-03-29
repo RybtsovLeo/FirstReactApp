@@ -1,0 +1,47 @@
+.Dialog {
+    grid-area: b;
+    background-color: #2c2c2c;
+    display: grid;
+    grid-template-areas:
+    "dh dh"
+     "db dn";
+    grid-template-rows: 70px 1fr;
+    grid-template-columns: 10fr 2fr;
+    grid-gap: 10px;
+}
+
+.dialogHeader {
+    grid-area: dh;
+    background-color: rgba(255, 229, 169, 0.91);
+    display: flex;
+    flex-direction: row;
+}
+
+.dialogLogo {
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    margin: 5px
+}
+
+.dialogName {
+    color: coral;
+    font-size: 45px;
+}
+
+.dialogStatus {
+    color: rgba(95, 95, 246, 0.82);
+}
+
+.dialogNameStatus {
+    margin-left: 10px;
+}
+
+.dialogNav {
+    grid-area: dn;
+    background-color: rgba(255, 229, 169, 0.91);
+}
+
+.dialogBody {
+    grid-area: db;
+}
