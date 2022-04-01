@@ -21,8 +21,8 @@
 }
 
 .navText {
-    margin-left: 20px;
     font-size: 20px;
     font-family: "American Typewriter";
     color: rgba(255, 229, 169, 0.91);
+    width: 5px;
 }

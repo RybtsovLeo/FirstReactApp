@@ -4,21 +4,22 @@ import {Link} from "react-router-dom";
 
 const NavBar = () => {
     return <nav className="navbar">
-        <div className="navButt">
-            <Link to="/Profile">Profile</Link>
-        </div>
-        <div className="navButt">
-            <Link to="/Dialogs" className="navText">Messages</Link>
-        </div>
-        <div className="navButt">
-            <a className="navText">News</a>
-        </div>
-        <div className="navButt">
-            <a className="navText">Music</a>
-        </div>
-        <div className="navButt">
-            <a className="navText">Settings</a>
-        </div>
+
+        <Link to="/Profile" className="navText">
+            <div className="navButt">Profile</div>
+        </Link>
+        <Link to="/Dialogs" className="navText">
+            <div className="navButt">Dialogs</div>
+        </Link>
+        <Link to="/Profile" className="navText">
+            <div className="navButt">News</div>
+        </Link>
+        <Link to="/Profile" className="navText">
+            <div className="navButt">Music</div>
+        </Link>
+        <Link to="/Profile" className="navText">
+            <div className="navButt">Settings</div>
+        </Link>
 </nav>}
 
 export default NavBar

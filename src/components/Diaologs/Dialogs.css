@@ -6,8 +6,9 @@
     "dh dh"
      "db dn";
     grid-template-rows: 70px 1fr;
-    grid-template-columns: 10fr 2fr;
+    grid-template-columns: 10fr 4fr;
     grid-gap: 10px;
+    height: 1600px;
 }
 
 .dialogHeader {
@@ -40,8 +41,59 @@
 .dialogNav {
     grid-area: dn;
     background-color: rgba(255, 229, 169, 0.91);
+    border-radius: 20px;
 }
 
 .dialogBody {
     grid-area: db;
+}
+
+.dialogNavItem {
+    height: 3%;
+    border: 1px solid darkolivegreen;
+    font-size: 20px;
+    transition: 300ms;
+}
+
+.dialogNavItem:hover {
+    transform: scale(1.1);
+    background-color: rgba(252, 217, 138, 0.96);
+}
+
+.dialogNavName {
+    margin-left: 20px;
+    color: #ff561a;
+}
+
+.messageBody {
+    display: flex;
+    height: 5%;
+    border-bottom: 1px solid darkolivegreen;
+    transition: 300ms
+}
+
+.messageBody:hover {
+    background-color: rgba(64, 80, 35, 0.73);
+    border-radius: 15px;
+}
+
+.messageName {
+    font-size: 20px;
+    color: coral;
+}
+
+.messageContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+}
+
+.messageText {
+    color: rgba(255, 229, 169, 0.91);
+}
+
+.messageLogo {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
 }
